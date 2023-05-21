@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(35, 35, 35);
+}
+
+.mainarea {
+    display: flex;
+    justify-content: space-around;
+}
+
+.editors {
+    background-color: rgb(225, 11, 244);
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    min-height: 250px;
+    overflow: scroll;
+    font-size: 1.5em;
+    background-color: rgb(35, 35, 35);
+    color: white;
+}
+
+iframe {
+    width: 100%;
+    height: 30em;
+    background: whitesmoke;
+}
+
+output {
+    background-color: #57a958;
+}
+
+h1 {
+    color: rgb(35, 35, 35);
+    font-family: sans-serif;
+}
